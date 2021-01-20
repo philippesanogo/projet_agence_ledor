@@ -1,0 +1,100 @@
+/* Class communes */
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Header + vp */
+
+header {
+    flex-direction: column;
+}
+
+header ul {
+    flex-direction: column;
+    text-align: center;
+}
+
+header ul li {
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    border-bottom: 0.5px dotted #f1c40f;
+}
+
+.vp-content h1 {
+    font-size: 2rem;
+}
+
+.vp-content p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Offer */
+
+.offer {
+    padding: 5rem 1rem 5rem 1rem;
+}
+
+.offer h2 {
+    text-align: center;
+}
+
+.offer-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Who */
+
+.who {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.who-content-img {
+    min-height: 300px;
+}
+
+.who-content-text {
+    padding: 4rem 2rem;
+}
+
+/* Testimonials */
+
+.testimonials-elem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.testimonials-elem:nth-child(3) {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.testimonials-elem p {
+    font-size: 0.9rem;
+}
+
+.testimonials-elem-profil {
+    padding: 2rem 0rem;
+}
+
+/* Contact */
+
+.contact {
+    padding: 5rem 1rem;
+}
+
+.contact-form {
+    max-width: 300px;
+}
+
+.contact-form button {
+    margin: 3rem auto 0rem;
+    
+}
+
+
+
